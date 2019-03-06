@@ -1,8 +1,8 @@
 import smtplib
-from_addr="shubhj4019@gmail.com"
-to_addr="jshubh019@gmail.com"
+from_addr="from mail"
+to_addr="to mail"
 messgae="hey message send succesfully"
-password='Shubhamgmail121'
+password='password here'
 server=smtplib.SMTP('smtp.gmail.com:587')
 server.starttls()
 server.login(from_addr,password)
