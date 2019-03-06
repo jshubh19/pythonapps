@@ -1,12 +1,12 @@
 from twilio.rest import Client
 
-account_sid = "AC561b21ca46eab7cd51348514510099f1"
+account_sid = ""
 
-auth_token = "aec870ccc4f26e3ea808a46cd289a4fc"
+auth_token = ""
 
-myphone = "+91 8094823877"
+myphone = "+91 80*********"
 
-TwilioNumber = "+1 858-281-4781 "
+TwilioNumber = "+1 **********"
 
 client = Client(account_sid, auth_token)
 
